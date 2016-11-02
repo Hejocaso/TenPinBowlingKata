@@ -1,0 +1,54 @@
+[0m[[0minfo[0m] [0m[32mBowlingSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling TenPinBowlingGame[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return STRIKE when a player knocks down all pins *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IndexOutOfBoundsException: 1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.LinearSeqOptimized$class.apply(LinearSeqOptimized.scala:65)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.apply(List.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Bowling$$anonfun$roll$1.apply$mcVI$sp(Bowling.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Bowling.roll(Bowling.scala:9)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(BowlingSpec.scala:9)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.apply(BowlingSpec.scala:8)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return SPARE if a player doesn't knock down all pins *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IndexOutOfBoundsException: 1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.LinearSeqOptimized$class.apply(LinearSeqOptimized.scala:65)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.apply(List.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Bowling$$anonfun$roll$1.apply$mcVI$sp(Bowling.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Bowling.roll(Bowling.scala:9)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec$$anonfun$1$$anonfun$apply$mcV$sp$2.apply(BowlingSpec.scala:14)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec$$anonfun$1$$anonfun$apply$mcV$sp$2.apply(BowlingSpec.scala:13)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- should return UNLUCKY if player hits no pins *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IndexOutOfBoundsException: 1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.LinearSeqOptimized$class.apply(LinearSeqOptimized.scala:65)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.apply(List.scala:84)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Bowling$$anonfun$roll$1.apply$mcVI$sp(Bowling.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:160)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Bowling.roll(Bowling.scala:9)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(BowlingSpec.scala:19)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(BowlingSpec.scala:18)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31mBowlingSpec *** ABORTED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.ClassCastException: scala.util.Success cannot be cast to java.lang.Boolean[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.runtime.BoxesRunTime.unboxToBoolean(BoxesRunTime.java:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatestplus.play.OneAppPerSuite$$anonfun$run$1.apply(OneAppPerSuite.scala:144)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.CompositeStatus.whenCompleted(Status.scala:886)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatestplus.play.OneAppPerSuite$class.run(OneAppPerSuite.scala:144)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at BowlingSpec.run(BowlingSpec.scala:6)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:472)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at sbt.TestRunner.runTest$1(TestFramework.scala:76)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at sbt.TestRunner.run(TestFramework.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at sbt.TestFramework$$anon$2$$anonfun$$init$$1$$anonfun$apply$8.apply(TestFramework.scala:202)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
